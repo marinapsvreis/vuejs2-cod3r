@@ -1,0 +1,56 @@
+#efeito {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+}
+
+.destaque {
+	background-color: red;
+	width: 200px !important;
+}
+
+.encolher {
+	background-color: gray;
+	width: 50px !important;
+}
+
+.fonte-maior {
+	font-size: 30px;
+}
+
+.cor-texto {
+	color: blue;
+}
+
+.quadrado{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+}
+
+.retangulo{
+	width: 200px;
+	height: 100px;
+	background-color: green;
+}
+
+.linha{
+	width: 100px;
+	height: 6px;
+	background-color: green;
+}
+
+.azul{
+	background-color: blue;
+}
+
+.barra-progresso {
+	height: 30px;
+	width: 500px;
+	border: 1px solid #000;
+}
+
+.progress{
+	background-color: red;
+	height: 100%;
+}
