@@ -1,0 +1,25 @@
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+
+<div id="app">
+  <input type="text" v-on:keyup="exibirAlerta"> * Exibe alerta a cada tecla pressionada
+  <br>
+  <input type="text" v-on:keyup.enter="exibirAlerta"> * Exibe alerta sempre que clicar enter
+  <br>
+  <input type="text" v-on:keyup.enter.alt="exibirAlerta"> * Exibe alerta sempre que clicar enter + alt
+</div>
+
+<script>
+  new Vue({
+    el: '#app',
+    data: {
+      contador: 0,
+      x: 0,
+      y: 0,
+    },
+    methods: {
+      exibirAlerta() {
+        alert("Estou te alertando");
+      }
+    }
+  })
+</script>
